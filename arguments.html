@@ -30,6 +30,20 @@
         fibo[i] = fibo[i - 2] + fibo[i - 1];
       }
       console.log(fibo);
+
+      //
+
+      function fibonachi(num) {
+        if (num == 0 || num == 1) console.log(1);
+        else {
+          let fibo = [1, 1];
+          for (let i = 2; i < num.length; i++) {
+            fibo[i] = fibo[i - 2] + fibo[i - 1];
+          }
+          console.log(fibo);
+        }
+      }
+      fibonachi(3);
     </script>
   </body>
 </html>
