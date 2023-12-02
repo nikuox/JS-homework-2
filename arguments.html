@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body>
+  <body id="demo">
+    <p id="demo">Lorem ipsum dolor sit amet.</p>
+    <span class="text1">text1</span>
+    <span class="text2">text2</span>
+    <span class="text3">text3</span>
+    <span class="text4">text4</span>
+    <span class="text5">text5</span>
+    <span class="text6">text6</span>
+
     <script>
       function sum() {
         console.log(arguments);
@@ -40,10 +48,12 @@
           for (let i = 2; i < num.length; i++) {
             fibo[i] = fibo[i - 2] + fibo[i - 1];
           }
-          console.log(fibo);
+          console.log(fibonachi);
         }
       }
       fibonachi(3);
+
+      //
     </script>
   </body>
 </html>
