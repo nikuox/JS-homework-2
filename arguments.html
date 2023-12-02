@@ -11,6 +11,15 @@
         console.log(arguments);
       }
       sum(10, 20, 44, 100, 9);
+
+      function sum() {
+        let s = 0;
+        for (let i = 0; i < arguments.length; i++) {
+          s += arguments[i];
+        }
+        console.log(s);
+      }
+      sum(10, 22, 33, 1, 2);
     </script>
   </body>
 </html>
