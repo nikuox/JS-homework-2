@@ -12,6 +12,8 @@
       }
       sum(10, 20, 44, 100, 9);
 
+      //
+
       function sum() {
         let s = 0;
         for (let i = 0; i < arguments.length; i++) {
@@ -20,6 +22,14 @@
         console.log(s);
       }
       sum(10, 22, 33, 1, 2);
+
+      //
+
+      let fibo = [1, 1];
+      for (let i = 2; i < 20; i++) {
+        fibo[i] = fibo[i - 2] + fibo[i - 1];
+      }
+      console.log(fibo);
     </script>
   </body>
 </html>
