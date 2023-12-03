@@ -69,8 +69,11 @@
       let hour = Number(prompt("enter hour: "));
       if (hour > 0 && hour <= 10) {
         console.log("good morning");
-      }
-      else if(hour>10 && )
+      } else if (hour > 10 && hour <= 16) {
+        console.log("good afternoon");
+      } else if (hour > 16 && hour <= 24) {
+        console.log("goodnight");
+      } else console.log("enter valid number");
     </script>
   </body>
 </html>
